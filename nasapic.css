@@ -1,0 +1,53 @@
+body {
+    background-color: bisque;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 100px;
+}
+
+#button_holder {
+    text-align: center;
+}
+
+#submit_button {
+    width: 20em; height: auto;
+    margin: 0 auto;
+    display: block;
+    padding: 25px;
+    font-size: 24px;
+    background: #7e8987;
+    border: black;
+    border-radius: 25px;
+    box-shadow: 0 9px #999;
+}
+
+#submit_button:hover {background-color: #8db580;}
+
+#submit_button:active {
+    background-color: #8db580;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+h1 {
+    text-align: center;
+}
+
+.pic-containers {
+    background-color: #4b4a67;
+    border-radius: 25px;
+    margin: 15px;
+    padding: 25px;
+}
+
+#description {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font: bold 24px arial;
+}

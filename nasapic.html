@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script defer src="nasapic.js"></script>
+        <link rel="stylesheet" href="nasapic.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        <title>NASA Image  of the Day app</title>
+    </head>
+    <body>
+        <h1>NASA Astronomy Picture of the Day</h1>
+        <div class="pic-containers">
+            <div id="picHolder">
+                <img src="" id="picture">
+            </div>
+            <div id="button_holder">
+                <form>
+                    <button type="submit" role="button" id="submit_button" onclick="buttonHide(this)">Get todays NASA APOD</button>
+                </form>
+            </div>
+            <h2></h2>      
+                <p id="description"></p>
+        </div>
+        
+    </body>
+</html>
